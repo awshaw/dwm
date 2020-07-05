@@ -1,4 +1,5 @@
 /* See LICENSE file for copyright and license details. */
+/* Colorbox HEX: https://www.colorbox.io/#steps=11#hue_start=359#hue_end=359#hue_curve=easeInQuad#sat_start=6#sat_end=100#sat_curve=easeOutQuad#sat_rate=130#lum_start=100#lum_end=0#lum_curve=easeOutQuad#minor_steps_map=0 */
 
 /* appearance */
 static const unsigned int borderpx  = 4;        /* border pixel of windows */
@@ -8,15 +9,15 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "monospace:size=10" };
 static const char dmenufont[]       = "monospace:size=10";
 // background color
-static const char col_gray1[]       = "#000000";
+static const char col_gray1[]       = "#2C1188";
 // inactive window border color
-static const char col_gray2[]       = "#000000";
+static const char col_gray2[]       = "#10060A";
 // font color
-static const char col_gray3[]       = "#FFB5ED";
+static const char col_gray3[]       = "#FFFFFF";
 // current tag and current window font color
-static const char col_gray4[]       = "#4D3FE4";
+static const char col_gray4[]       = "#949BA3";
 // top bar second color and active window border color
-static const char col_cyan[]        = "#28C7C4";
+static const char col_cyan[]        = "#040102";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
