@@ -102,6 +102,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_period, focusmon,       {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
+	{ MODKEY|ShiftMask,             XK_l, 	   spawn,          SHCMD("xscreensaver-command -lock") },
 	{ MODKEY|ShiftMask,             XK_x, 	   spawn,          SHCMD("~/.config/keymaps/shudderdown") },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
